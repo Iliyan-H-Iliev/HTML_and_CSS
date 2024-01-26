@@ -1,0 +1,47 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+
+
+body, li    {
+    font: 18px/1.5 Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul  {
+    list-style: none;
+}
+
+li  {
+    line-height: 25px;
+}
+
+ul li::before   {
+    font-size: 25px;
+    margin-right: 5px;
+    font-family: "Font Awesome 6 Brands", "Font Awesome 6 Free", serif;
+    font-weight: bold;
+}
+
+ul.check li::before     {
+    content: "\f00c";
+    color: #2fcc71;
+}
+
+ul.star li::before  {
+    content: "\f005";
+    color: coral;
+}
+
+ul.contact li::before   {
+    color: #3498da;
+}
+
+ul.contact li:first-child::before  {
+    content: "\f0e0";
+}
+
+ul.contact li:nth-child(2)::before  {
+    content: "\f099";
+}
+
+ul.contact li:last-child::before  {
+    content: "\f08c";
+}
