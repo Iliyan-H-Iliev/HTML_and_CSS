@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+html    {
+    font: 16px/1.5 Helvetica, "Playfair Display", serif;
+}
+
+body    {
+    font-family: inherit;
+    padding: 2em;
+}
+
+div, nav, nav ul li   {
+    display: inline-block;
+}
+
+header  {
+    border-bottom: 2px solid black;
+}
+
+h1  {
+    font-size: 2.1em;
+    font-weight: 400;
+}
+
+div {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    margin: 1em;
+}
+
+ul  {
+    margin-left: 4em;
+}

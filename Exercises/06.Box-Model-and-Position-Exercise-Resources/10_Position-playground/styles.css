@@ -1,0 +1,68 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+img     {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.card   {
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 0.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1em 0.6em rgb(0, 0, 0, 0.4);
+    border: 1px solid #6e6e6e;
+}
+
+.card::before {
+    display: block;
+    content: '';
+    inset: 0;
+    position: absolute;
+    box-shadow: 0 0 1em 0.6em rgb(0, 0, 0, 0.4) inset;
+    opacity: 1;
+}
+
+.card:hover::before {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.card::after    {
+    content: "\f005";
+    font-family: "Font Awesome 6 Free", serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+}
+
+.card:hover::after  {
+    color: yellow;
+}
+
+.viewport   {
+    height: 100vh;
+    position: relative;
+}
+
+.viewport:first-child {
+    background: linear-gradient(to right, #155485, lightgreen);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(to right, #af0a84, #e39b4a);
+}
+

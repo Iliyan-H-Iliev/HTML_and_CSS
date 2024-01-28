@@ -1,0 +1,46 @@
+html    {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body    {
+    font-family: inherit;
+    padding: 1em 2em;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+}
+
+article, aside  {
+    display: inline-block;
+    vertical-align: top;
+}
+
+article     {
+    width: 70%;
+}
+
+aside   {
+    width: 25%;
+}
+
+section     {
+    padding-top: 1.5em;
+}
+
+img     {
+    min-width: 300px;
+    width: 75%;
+    height: auto;
+}
+
+
+
+
+aside ul{
+    padding: 1em;
+    margin: 0;
+    list-style-position: inside;
+}
+
+h3  {
+    margin-bottom: 0;
+}
