@@ -1,0 +1,123 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 12px/1.5 Helvetica, sans-serif;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+    font: inherit;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  width: 100%;
+    height: auto;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+/**!*/
+/*#root, #__next {*/
+/*  isolation: isolate;*/
+/*}*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+.container {
+    display: flex;
+    width: 830px;
+    background: rgba(24, 129, 182, 1);
+    padding: 2.5em;
+    border: 4px solid black;
+    border-radius: 1em ;
+    gap: 0.5em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    align-self: flex-end;
+    padding: 0.5em;
+}
+
+.buttons_container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 5em;
+}
+
+.buttons_container a {
+    padding: 0.5em 1.2em;
+    font-size: 9px;
+    border-radius: 0.5em;
+    border: 1px solid black;
+    text-decoration: none;
+    font-weight: 900;
+    box-shadow: 0 0 0.1em 0.1em rgba(0,0,0,0.2);
+}
+
+.buttons_container a:nth-child(1) {
+    color: #e8e7e7;
+    background: rgba(182, 65, 109, 1);
+    margin-right: 1em;
+}
+
+.buttons_container a:nth-child(2) {
+    color: black;
+}
+
+.main h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0.5em 0;
+}
+
+.main h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+.main p {
+    text-indent: 3em;
+    line-height: 2.2em;
+}
