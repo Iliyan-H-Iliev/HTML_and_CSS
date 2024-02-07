@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+body {
+  font: 12px/1.5 Verdana, sans-serif;
+    border: 3px solid black;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Layout */
+
+ .site-header {
+     position: relative;
+ }
+
+ .background-img {
+     width: 100%;
+     height: auto;
+     position: absolute;
+     z-index: -1;
+     object-fit: cover;
+     top: 0;
+ }
+
+ .logo, .sponsors-img {
+     width: 80px;
+     height: auto;
+ }
+
+ img.logo {
+
+ }
+
+ .sponsors-img img {
+     border-radius: 10em;
+     padding: 1.5em;
+     background: #eee;
+ }
+
+ .logo-header {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .logo-header ul{
+     display: flex;
+     list-style: none inside;
+     gap: 2em;
+     padding: 1em 3em;
+ }
+
+ .logo-header a {
+     text-decoration: none;
+     color: white;
+ }
+
+ header h1, header p {
+     color: white;
+ }
+
+.main-header {
+    padding: 5em 0 20em 10em ;
+    width: 50%;
+}
+
+.site-header .main-header h1 {
+    font-size: 3.5em;
+    font-weight: 400;
+}
+

@@ -1,0 +1,44 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+}
+
+.gallery {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /*align-self: center;*/
+}
+
+ul, li {
+    display: flex;
+}
+
+.gallery ul {
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.gallery li {
+    list-style: none outside;
+    border: 6px solid black;
+    flex: 0 0 30%;
+    align-items: center;
+    padding: 0.5em;
+    box-shadow:
+            0 0 1em 0 rgb(0, 0, 0, 0.4),
+            0 0 1em 0 rgb(0, 0, 0, 0.3) inset;
+;
+}

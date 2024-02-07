@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Georgia, serif;
+}
+
+body {
+    font: inherit;
+    background: rgb(238, 238, 238);
+    padding: 3em 7em;
+}
+
+
+
+img {
+    display: block;
+    border: 3px solid black;
+    padding: 0.5em;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.5);
+}
+
+.align-left {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+.align-right {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 2px solid black;
+    flex: 0 0 100%;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+main h1, main h2 {
+    margin-bottom: 1rem;
+}
+
+
+
+main {
+    flex: 0 0 75%;
+}
+
+aside {
+    flex: 0 0 auto;
+    margin-left: 5em;
+}
+
+header > p {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+main p {
+    margin-bottom: 1em;
+}
+
+blockquote {
+    max-width: 45%;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.7);
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
+    padding-left: 1.5em;
+    margin-left: 1.5em;
+    float: right;
+
+}
+
+blockquote .author {
+    text-align: right;
+    margin: 1.5em;
+}
+
+aside h3 {
+    margin-top: 1rem;
+}
+
+aside ul {
+    list-style: inside;
+}
+
+aside li {
+    margin-left: 1rem;
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
