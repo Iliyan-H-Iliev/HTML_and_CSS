@@ -24,6 +24,11 @@ ul {
     list-style-position: inside;
 }
 
+nav li {
+    text-decoration: none;
+    display: block;
+}
+
 
 
 @media (min-width: 500px) {
@@ -47,8 +52,5 @@ ul {
 
 }
 
-nav li {
-    text-decoration: none;
-    display: block;
-}
+
 
