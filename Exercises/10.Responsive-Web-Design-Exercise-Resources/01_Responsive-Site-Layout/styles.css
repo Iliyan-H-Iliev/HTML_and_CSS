@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+body {
+    margin: 1em;
+}
+
+header, aside, main, footer {
+    background: #5bc0de;
+    padding: 1em;
+    border-radius: 0.2em;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+
+
+@media (min-width: 500px) {
+
+    body {
+        flex-direction: row;
+    }
+
+    header, footer {
+        flex: 1 1 100%;
+    }
+
+    main {
+        flex: auto;
+    }
+
+    aside {
+        width: 150px;
+    }
+
+
+}
+
+nav li {
+    text-decoration: none;
+    display: block;
+}
+
