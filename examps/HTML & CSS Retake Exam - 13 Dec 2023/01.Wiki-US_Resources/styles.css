@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playfair+Display:wght@400;700&display=swap');
+
+/*
+ * Remove all whitespace from all elements
+ * - - - - - - - - - - - */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+ * Reset box-sizing
+ * https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ * - - - - - - - - - - - */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 14px/1.5 Agbalumo, cursive;
+    box-sizing: border-box;
+}
+
+/*
+ * Fix images behaviour - block elements
+ * - - - - - - - - - - - */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 { font-size: 2.8em; } /* 14 * 2.8 = 39px */
+h2 { font-size: 2.2em; } /* 14 * 2.2 = 31px */
+h3 { font-size: 1.8em; } /* 14 * 1.8 = 25px */
+h4 { font-size: 1.6em; } /* 14 * 1.6 = 22px */
+h5 { font-size: 1.2em; } /* 14 * 2.2 = 17px */
+h6 { font-size: 1.0em; } /* 14 * 1.0 = 14px */
+
+.site {
+    width: 61em;
+    border: 2px solid black;
+    margin: 2em auto;
+}
+
+header, .facts {
+    background-color: #D5EBEA;
+}
+
+
+
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1, header p {
+    width: 94%;
+    flex-grow: 1;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    padding-top: 0.5em;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+.map-section {
+    display: flex;
+    margin-bottom: 2.3em;
+}
+
+.map-container {
+    flex: 0 0 33.5%;
+    padding: 0.7em 1em 1em 0.7em;
+    margin: 3em 1.5em 0 1.5em;
+    border: 2px solid black;
+}
+
+.map-container p {
+    font-size: 11px;
+    font-style: italic;
+    letter-spacing: -0.2px;
+}
+
+.map-section p {
+    text-indent: 2em;
+    margin-top: 1.5em;
+}
+
+.text {
+    flex: 0 0 55%;
+    align-self: end;
+    font-size: 1.2em;
+}
+
+.facts-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.facts-section h3 {
+    display: inline-block;
+    line-height: 1em;
+    background-color: black;
+    color: white;
+    padding: 0.3em 2.5em 0.2em 2.5em ;
+    align-self: start;
+    font-size: 1.5em;
+}
+
+.facts p {
+    padding-bottom: 0.7rem;
+    font-size: 1.2em;
+}
+
+.facts {
+    padding: 1em 0 0 3em ;
+}

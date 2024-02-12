@@ -29,7 +29,9 @@ nav li {
     display: block;
 }
 
-
+main ul {
+    padding-left: 2em;
+}
 
 @media (min-width: 500px) {
 
@@ -48,8 +50,6 @@ nav li {
     aside {
         width: 150px;
     }
-
-
 }
 
 

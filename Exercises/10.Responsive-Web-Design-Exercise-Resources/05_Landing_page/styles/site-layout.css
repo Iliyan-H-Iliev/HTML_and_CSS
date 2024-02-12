@@ -1,0 +1,168 @@
+
+
+/*html {*/
+/*    scroll-behavior: smooth;*/
+/*}*/
+
+/*body {*/
+/*    padding: 2em;*/
+/*    background: #eee;*/
+/*    min-height: 100vh;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*@media (min-width: 800px) {*/
+/*    .site {*/
+/*        display: flex;*/
+/*        flex-wrap: wrap;*/
+/*        justify-content: space-between;*/
+/*        gap: 2em;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 920px) {*/
+/*    .site {*/
+/*        max-width: 60em;*/
+/*        margin: 0 auto;*/
+/*    }*/
+/*}*/
+
+/*.site-header,*/
+/*.site-footer {*/
+/*    flex: 0 0 100%;*/
+/*    padding: 1em 1.5em;*/
+/*    border-radius: 0.3em;*/
+/*    background: #fff;*/
+/*    box-shadow: -0.2em 0.2em 0.5em 0 rgba(0,0,0,0.2);*/
+/*}*/
+
+/*main {*/
+/*    flex: 1 0 calc(65% - 2em);*/
+/*}*/
+
+/*aside {*/
+/*    flex: 1 0 35%;*/
+/*}*/
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1604147706283-d7119b5b822c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+header,footer, .site-presentation {
+    margin: 0 2em;
+}
+
+hr {
+    border: 2px solid black;
+    width: 70px;
+    margin: 2em auto;
+}
+
+
+
+.site-presentation {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+
+.presentation-text {
+    flex: 0 0 calc(65% - 2em);
+}
+
+.presentation-img {
+    flex: 0 0 auto;
+}
+
+
+.presentation-img i {
+    font-size: 30vw;
+}
+
+.presentation-text p {
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+main h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.presentation-text button {
+    border: 2px solid black;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.our-team, .person, .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.title {
+    align-items: center;
+}
+
+/*.our-team {*/
+/*    gap: 2em;*/
+/*}*/
+
+.team-employs, .testimonials-people {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.team-employs {
+    height: 550px;
+}
+
+.testimonials-people {
+    height: 800px;
+}
+
+.person {
+    max-width: 160px;
+    flex: 0 0 100px;
+    align-items: center;
+
+}
+
+.person .person-img {
+    width: 80px;
+    height: auto;
+    box-shadow: 0 0 1em 0.5em rgba(0,0,0,0.3);
+    display: block;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.person p {
+    text-align: center;
+}
+
+.section-sign-up {
+    background: url("https://images.unsplash.com/photo-1607499457689-3fd1ac3ffcdd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    width: 100vw;
+    margin: 0;
+    padding: 3em 0;
+}
+
+.section-sign-up h2 {
+    color: white;
+}
+
+.testimonials {
+    background-image: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
