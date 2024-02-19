@@ -1,0 +1,334 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/brands.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 22px/1.5 Inter, sans-serif;
+}
+
+body {
+    font-size: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 10em 2em 8em;
+}
+
+.nav {
+
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+
+}
+
+.nav a {
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 27px;
+    /*border: 1px solid black;*/
+
+}
+
+.login-nav ul li:last-child {
+    background-color: #ADE2DF;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+
+.section-header {
+    background-color: #ADE2DF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8em;
+    padding: 4.8em 0;
+
+}
+
+.section-header h1 {
+    font-size: 80px;
+}
+
+
+.app-buttons ul{
+    display: flex;
+    gap: 0.8em;
+}
+
+.app-buttons a {
+    display: block;
+    color: white;
+    background-color: black;
+    border-radius: 0.4em;
+    padding: 1.2em 2em;
+}
+
+
+.apple::before {
+        content: "\f179";
+        font-family: "Font Awesome 6 Brands", serif;
+        display: inline-block;
+        padding-right: 10px;
+        vertical-align: middle;
+        font-weight: 900;
+}
+
+
+.android::before {
+        content: "\f17b";
+        font-family: "Font Awesome 6 Brands", serif;
+        display: inline-block;
+        padding-right: 10px;
+        vertical-align: middle;
+        font-weight: 900;
+}
+
+.finance {
+    display: flex;
+    padding: 5.45rem 10.2rem;
+}
+
+.finance-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+    padding-bottom: 4.5rem;
+}
+
+.finance-containers h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.finance-containers p {
+    text-align: center;
+}
+
+.mobile-app {
+    background-color: #ADE2DF;
+    display: flex;
+    padding: 0 14.45rem;
+    gap: 5.45rem;
+    align-items: center;
+}
+
+.svg-con-container {
+    border: 2px dashed #98B8B6;
+    flex: 1 0 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.svg-container {
+    width: 395px;
+
+}
+
+
+.mobile-app-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mobile-app-text-container h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.h5-text-container h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.h5-text-container p {
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+#pricing-plans-link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-top: 1em;
+}
+
+#pricing-plans-link::after {
+    content: "\f061";
+        font-family: "Font Awesome 6 Free", serif;
+        display: inline-block;
+        padding-left: 10px;
+        vertical-align: middle;
+        font-weight: 600;
+}
+
+.pricing-plans-container {
+    background-color: #F3F5FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.pricing-plans {
+    display: flex;
+    border-radius: 1em;
+    overflow: hidden;
+    border: 1px solid #DBDBDB;
+    background-color: white;
+}
+
+.plan {
+    margin: 1.7em 0;
+    padding: 0 1.7em;
+    background-color: white;
+    border-right: 1px solid #DBDBDB;
+
+}
+
+.plans-container {
+    display: flex;
+}
+
+.expand {
+    background-color: #ADE2DF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-plans ul {
+    list-style: none inside;
+}
+
+.plan h2 {
+    font-size: 48px;
+}
+
+.price {
+    display: flex;
+}
+
+.price p {
+    align-self: end;
+    margin-left: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.plans-container .plan ul li,
+.expand ul li {
+    font-size: 18px;
+    line-height: 2.2em;
+    font-weight: 400;
+}
+
+.plans-container .plan ul li::before, .expand ul li::before {
+        content: "\f00c";
+        font-family: "Font Awesome 6 Free", serif;
+        display: inline-block;
+        padding-right: 5px;
+        vertical-align: middle;
+        font-weight: 600;
+}
+
+.plan-name h4, .expand h4 {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+}
+
+.plan-name p {
+    margin-bottom: 1.5em;
+}
+
+.plan-name {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.plan-including {
+    padding-top: 1.8em;
+}
+
+.expand {
+    padding: 1.7em;
+    flex: 0 0 790px;
+}
+
+.expand h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.get-plan {
+    font-size: 20px;
+    background-color: #ADE2DF;
+    border: none;
+    width: 100%;
+    padding: 1.5em 0;
+    border-radius: 0.5em;
+    margin-top: 2em;
+}
+
+.contact-us {
+    background-color: black;
+    color: white;
+    align-self: end;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+    text-align: center;
+}
+
+.last-section h1 {
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.last-section .app-buttons {
+    margin-top: 3em;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 4em;
+}
+
+.social-links {
+    display: flex;
+    gap: 1em;
+}

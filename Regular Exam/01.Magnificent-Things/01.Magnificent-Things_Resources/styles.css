@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 14px/1.2 Inter, sans-serif;
+}
+
+body, table, input {
+    font:inherit;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+li {
+    list-style: none outside;
+}
+
+body {
+    background-color: #85DCFF;
+}
+
+.site-container {
+    display: flex;
+    gap: 6.5em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7em;
+}
+
+.paragraphs {
+    margin: 2em 0;
+}
+
+.site-nav ul {
+    display: flex;
+    gap: 1em;
+}
+
+.site-nav a {
+    display: block;
+    padding: 1em 2em;
+    background-color: #FFFFFF;
+    border-radius: 0.3em;
+    text-decoration: none;
+    color: black;
+}
+
+.site-nav ul li:first-child a {
+    background-color: #42AA59;
+    border: 1px solid black;
+}
+
+.site-nav ul li:first-child a:hover {
+    background-color: black;
+    color: white;
+}
+
+.img-container {
+    width: 360px;
+    box-shadow: 0.4em 0.4em 0.5em 0 rgba(0,0,0,0.7), 0 0 0.5em 0 rgba(0,0,0,0.3);
+}

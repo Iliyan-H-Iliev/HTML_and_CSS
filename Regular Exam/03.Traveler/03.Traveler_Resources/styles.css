@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 22px/1.5 Karla, sans-serif;
+}
+
+body, table, input {
+    font:inherit;
+}
+
+body {
+background-color: #F8F0E9;
+}
+
+
+li {
+    list-style: none outside;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('images/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 870px;
+    position: relative;
+}
+
+.site-title a {
+    display: block;
+    width: 110px;
+    height: 65px;
+    overflow: hidden;
+    text-indent: -50vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    padding: 2em 4em;
+}
+
+.site-nav nav {
+    align-self: center;
+}
+
+.site-header ul {
+    display: flex;
+    gap: 3em;
+}
+
+.site-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-banner {
+    position: relative;
+    z-index: 1;
+}
+
+.site-banner h1 {
+    font-family: "Cormorant Infant",serif;
+    font-size: 110px;
+    color: white;
+    margin-top: 1.8em;
+    font-weight: 900;
+}
+
+.site-banner p {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 5.5em 0 7em;
+}
+
+
+.customer-testimonial p {
+    margin-top: 2.5em;
+}
+
+.customer-testimonial blockquote {
+    font-family: "Cormorant Infant", serif;
+    font-size: 74px;
+    letter-spacing: -0.5px;
+    font-weight: 900;
+    line-height: 0.8;
+    margin: 1em 0 2.1em;
+    transform: skewX(-10deg);
+    color: #352B2A;
+}
+
+.support {
+    background-color: #E14747;
+    color: white;
+    padding: 4em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container-support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 2em;
+}
+
+.container-support h4 {
+    font-size: 30px;
+}
+
+.container-support p {
+    text-align: center;
+}
+
+.your-mind{
+    display: flex;
+    justify-content: center;
+    padding: 3.5em 0;
+}
+
+.container-your-mind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 625px;
+    gap: 3.8em;
+}
+
+.container-your-mind h3,
+.local-guide .container h3{
+    font-size: 74px;
+    font-family: "Cormorant Infant", serif;
+    text-align: center;
+    line-height: 1;
+}
+
+.container-your-mind p {
+    align-self: start;
+}
+
+.img-container {
+    width: 625px;
+    height: 470px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.read-button {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    border-radius: 0.2em;
+    padding: 0.5em 1.5em;
+    font-size: 18px;
+}
+
+.ul-left {
+    align-self: start;
+}
+
+.local-guide {
+    background-color: #df4646;
+    color: white;
+    padding: 6.5em 0 4.5em;
+}
+
+.local-guide .container {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+}
+
+.local-guide p {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.find-location {
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #f8d679;
+    padding: 1em 2em;
+    border-radius: 2em;
+    color: black;
+}
+
+.site-footer {
+    background-color: #352b2a;
+    padding: 3em 8em;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-container a {
+    display: block;
+    width: 80px;
+    height: 45px;
+    overflow: hidden;
+    text-indent: -100vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.footer-container p:last-child {
+    opacity: 20%;
+}
+
