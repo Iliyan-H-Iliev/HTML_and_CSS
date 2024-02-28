@@ -8,79 +8,107 @@
 </head>
 <body>
 <div class="site_container">
-    <div class="fake_navigation">
-        <div class="pycharm_logo_container">
-            <img class="pycharm_logo" src="images/Pycharm.png" alt="">
-        </div>
-        <ul class="pycharm_navigation">
-            <li class="pycharm_navigation_button button"><a href="#"><span>F</span>ile</a></li>
-            <li class="pycharm_navigation_button button"><a href="#"><span>E</span>dit</a></li>
-            <li class="pycharm_navigation_button button"><a href="#"><span>V</span>eiw</a></li>
-            <li class="pycharm_navigation_button button"><a href="#"><span>N</span>avigate</a></li>
-            <li class="pycharm_navigation_button button"><a href="#"><span>C</span>ode</a></li>
-            <li class="pycharm_navigation_button button"><a href="#"><span>R</span>efactor</a></li>
-            <li class="pycharm_navigation_button button"><a href="#">R<span>u</span>n</a></li>
-            <li class="pycharm_navigation_button button"><a href="#"><span>T</span>ools</a></li>
-            <li class="pycharm_navigation_button button"><a href="#"><span>G</span>it</a></li>
-            <li class="pycharm_navigation_button button"><a href="#"><span>W</span>indows</a></li>
-            <li class="pycharm_navigation_button button"><a href="#"><span>H</span>elp</a></li>
-        </ul>
-    </div>
-    <div class="decoration">
-        <div class="decoration_begin">
-            <div class="my_web_icon">
-                <p class="web_icon">M</p>
+    <header class="site_header">
+        <div class="fake_navigation navigation">
+            <div class="pycharm_logo_container">
+                <img class="pycharm_logo" src="images/Pycharm.png" alt="">
             </div>
-            <p class="website_text">My_Website</p>
-            <p class="main_text">main</p>
-        </div>
-        <div class="decoration_end">
-            <p class="file_debug">Current File</p>
-            <div class="run run_debug">
-                <i class="fa-solid fa-play"></i>
-            </div>
-            <div class="debug run_debug">
-                <i class="fa-solid fa-bug"></i>
-            </div>
-            <div class="dots last_icons">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>
-            <div class="last_icons">
-                <i class="fa-solid fa-user-plus"></i>
-            </div>
-            <div class="last_icons">
-                <i class="fa-solid fa-toolbox"></i>
-            </div>
-            <div class="last_icons">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <div class="last_icons">
-                <i class="fa-solid fa-gear"></i>
+            <ul class="pycharm_navigation">
+                <li class="pycharm_navigation_button button"><a href="#"><span>F</span>ile</a></li>
+                <li class="pycharm_navigation_button button"><a href="#"><span>E</span>dit</a></li>
+                <li class="pycharm_navigation_button button"><a href="#"><span>V</span>eiw</a></li>
+                <li class="pycharm_navigation_button button"><a href="#"><span>N</span>avigate</a></li>
+                <li class="pycharm_navigation_button button"><a href="#"><span>C</span>ode</a></li>
+                <li class="pycharm_navigation_button button"><a href="#"><span>R</span>efactor</a></li>
+                <li class="pycharm_navigation_button button"><a href="#">R<span>u</span>n</a></li>
+                <li class="pycharm_navigation_button button"><a href="#"><span>T</span>ools</a></li>
+                <li class="pycharm_navigation_button button"><a href="#"><span>G</span>it</a></li>
+                <li class="pycharm_navigation_button button"><a href="#"><span>W</span>indows</a></li>
+                <li class="pycharm_navigation_button button"><a href="#"><span>H</span>elp</a></li>
+            </ul>
+            <div class="windows_tools">
+                <div class="minimize">
+                    <a href="#"><i class="fa-solid fa-window-minimize"></i></a>
+                </div>
+                <div class="full_screen">
+                    <a href="#"><i class="fa-regular fa-square"></i></a>
+                </div>
+                <div class="close">
+                    <a href="#"><i class="fa-solid fa-x"></i></a>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="decoration">
+            <div class="decoration_begin">
+                <div class="my_web_icon">
+                    <p class="web_icon">M</p>
+                </div>
+                <p class="website_text">My_Website</p>
+                <p class="main_text">main</p>
+            </div>
+            <div class="decoration_end">
+                <p class="file_debug">Current File</p>
+                <div class="run run_debug">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="debug run_debug">
+                    <i class="fa-solid fa-bug"></i>
+                </div>
+                <div class="dots last_icons">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div class="last_icons">
+                    <i class="fa-solid fa-user-plus"></i>
+                </div>
+                <div class="last_icons">
+                    <i class="fa-solid fa-toolbox"></i>
+                </div>
+                <div class="last_icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="last_icons">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+            </div>
+        </div>
+    </header>
     <main class="site_main">
         <aside class="left_side">
             <div class="folder_name">
                 <div class="folder_img_container">
                     <img src="images/Pngtreewhite%20folder%20icon_46257061.png" alt="">
-                    <p class="folder_name">My_Website</p>
                 </div>
+                <p class="folder_name">My_Website</p>
             </div>
-            <ul class="main_navigation">
-                <li class="python_file">home</li>
-                <li class="python_file">about_me</li>
-                <li class="python_file">my_projects</li>
-                <li class="python_file">certificates</li>
+            <ul class="main_navigation navigation">
+                <li class="python_file"><a href="#">home</a></li>
+                <li class="python_file"><a href="#">about_me</a></li>
+                <li class="python_file"><a href="#">my_projects</a></li>
+                <li class="python_file"><a href="#">certificates</a></li>
             </ul>
         </aside>
         <div class="main_container">
-            <p>Euismod appetere prompta libris mandamus graece accommodare postea sem mel autem perpetua doming iusto adipisci natum habemus postulant condimentum proin in fermentum graecis elitr lorem audire patrioque perpetua causae pulvinar laoreet vocent esse iudicabit legimus at habeo felis sem honestatis voluptaria feugait ei volutpat porta quaestio consul ullamcorper decore dui delectus scelerisque fugit senserit eruditi graeci curabitur dicat idque fastidii fugit recteque dictum commodo eloquentiam regione platonem vero hac offendit omittantur sit mediocritatem percipit blandit quas ponderum in fames qui lectus varius rhoncus tincidunt aliquip purus suavitate esse aliquet pertinax efficiantur pro sodales invidunt singulis montes mucius ad risus lectus prompta laoreet taciti neque diam dolorem aliquam lectus tempor affert dicunt metus ei vituperata putent nisl malesuada scripserit feugiat congue vulputate graeco etiam ludus nostrum qualisque numquam splendide curae magnis signiferumque ultricies constituam definiebas ridens falli justo has doming neglegentur ut dolor laoreet feugiat consectetuer solum populo nominavi quisque sonet omittantur elitr alia nibh possit liber percipit fastidii luctus viris morbi natum litora pulvinar eius auctor convenire leo affert posuere neque dicam pro doming pulvinar postea inani sagittis eruditi adipiscing mus vero fabellas ridens error brute viderer iaculis platonem ubique aliquip ac porro porro dico hac mollis in nascetur prompta.</p>
-            <p>Dolore senectus scelerisque commune pro nascetur posuere erat posidonium laoreet equidem arcu tellus pericula facilisis detracto voluptatibus id nonumy facilisi tibique eius alia suspendisse libero quaerendum nonumy doming sadipscing conclusionemque constituto cu quas omittantur dolore nobis convenire risus hinc qui te ridiculus prompta utroque tempor ocurreret verterem expetendis mollis vituperata ornatus nam dapibus metus enim ludus qualisque aenean accommodare commodo indoctum repudiare natoque proin nec voluptaria turpis ferri oratio urna natum comprehensam erroribus aeque himenaeos vidisse augue natoque conclusionemque mel phasellus liber fabellas veritus ridiculus eum arcu eam fugit sanctus elit salutatus minim voluptatibus hendrerit nihil cetero sagittis eruditi convallis sadipscing vivendo porro etiam euismod altera habitasse leo definitionem diam purus lobortis vim sit consectetuer voluptaria fusce noluisse vocibus qui mea duis eget eripuit porta euismod delicata definitionem suspendisse debet vulputate vitae dui simul ocurreret ne euripidis evertitur quis fabellas ubique labores erroribus ornatus singulis eripuit ultrices viris posuere nibh oratio altera minim utinam eleifend ligula ludus fermentum etiam magna delenit mei repudiare vidisse prodesset turpis phasellus mandamus errem accusata pulvinar scelerisque himenaeos ridens id nam pellentesque percipit fuisset possim delicata dicta harum erat penatibus quod massa nascetur usu curae sumo tempus justo himenaeos pretium eruditi posse graecis fabellas graeco.</p>
+            <p>Euismod appetere prompta libris mandamus graece accommodare postea sem mel autem perpetua doming iusto
+                adipisci natum habemus postulant condimentum proin in fermentum graecis elitr lorem audire patrioque
+                perpetua causae pulvinar laoreet vocent esse iudicabit legimus at habeo felis sem honestatis voluptaria
+                feugait ei volutpat porta quaestio consul ullamcorper decore dui delectus scelerisque fugit senserit
+                eruditi graeci curabitur dicat idque fastidii fugit recteque dictum commodo eloquentiam regione platonem
+                vero hac offendit omittantur sit mediocritatem percipit blandit quas ponderum in fames qui lectus varius
+                rhoncus tincidunt aliquip purus suavitate esse aliquet pertinax efficiantur pro sodales invidunt
+                singulis montes mucius ad risus lectus prompta laoreet taciti neque diam dolorem aliquam lectus tempor
+                affert dicunt metus ei vituperata putent nisl malesuada scripserit feugiat congue vulputate graeco etiam
+                ludus nostrum qualisque numquam splendide curae magnis signiferumque ultricies constituam definiebas
+                ridens falli justo has doming neglegentur ut dolor laoreet feugiat consectetuer solum populo nominavi
+                quisque sonet omittantur elitr alia nibh possit liber percipit fastidii luctus viris morbi natum litora
+                pulvinar eius auctor convenire leo affert posuere neque dicam pro doming pulvinar postea inani sagittis
+                eruditi adipiscing mus vero fabellas ridens error brute viderer iaculis platonem ubique aliquip ac porro
+                porro dico hac mollis in nascetur prompta.</p>
+
         </div>
     </main>
     <footer class="site_footer">
-        <p class="file_route text">My_Website <i class="fa-solid fa-greater-than"></i> <span class="python_file">home</span></p>
+        <p class="file_route text">My_Website <i class="fa-solid fa-greater-than"></i> <span
+                class="python_file">home</span></p>
         <p class="python_3 text">Python 3.12</p>
     </footer>
 

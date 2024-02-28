@@ -68,3 +68,103 @@
 /*        display: block;*/
 /*    }*/
 /*}*/
+
+
+
+
+.navigation li {
+    list-style: none inside none;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.fake_navigation, .fake_navigation ul {
+    display: flex;
+    gap: 1em;
+    padding: 0 0;
+}
+
+
+
+
+.fake_navigation {
+    background-color: #3C3F41;
+    border-bottom: 1px solid #181818;
+}
+
+.navigation a span {
+    display: inline-block;
+    border-bottom: 2px solid whitesmoke;
+    line-height: 0.8em;
+}
+
+.fake_navigation  ul{
+    align-items: center;
+}
+
+.fake_navigation li {
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+.fake_navigation .windows_tools {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.pycharm_navigation a {
+    display: block;
+}
+
+.windows_tools div {
+    padding: 0.3em 1em;
+    font-size: 14px;
+}
+
+.windows_tools div:hover {
+    background-color: #5c5a5a;
+}
+
+/*.windows_tools .close {*/
+/*    padding-right: 15px;*/
+/*}*/
+
+.windows_tools .close:hover {
+    background-color: #95191a;
+}
+
+
+@media (max-width: 730px) {
+
+    .pycharm_logo_container {
+        width: 15px;
+    }
+
+    .fake_navigation {
+        font-size: 10px;
+    }
+
+    .fake_navigation ul {
+        gap: 0.5em;
+    }
+    .fake_navigation ul a {
+        font-size: 12px;
+        letter-spacing: -1px;
+    }
+
+    .windows_tools div {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .fake_navigation li {
+        display: none;
+    }
+}

@@ -1,0 +1,17 @@
+.left_side {
+    padding: 1em;
+    border-right: 1px solid black;
+}
+
+.folder_name {
+    display: flex;
+}
+
+.folder_img_container {
+    width: 20px;
+    align-self: center;
+}
+
+.main_navigation {
+    padding-left: 1.5em;
+}
