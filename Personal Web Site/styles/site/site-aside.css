@@ -1,6 +1,7 @@
 .left_side {
     padding: 1em;
     border-right: 1px solid black;
+    min-width: 200px;
 }
 
 .folder_name {

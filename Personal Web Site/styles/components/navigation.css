@@ -69,8 +69,19 @@
 /*    }*/
 /*}*/
 
+.python_file a {
+    padding: 0.1em;
+}
 
-
+.python_file a::before {
+    content: "";
+    display: inline-block;
+    background: url('../images/Python-logo-notext.svg.png') no-repeat;
+    background-size: 15px;
+    width: 15px;
+    height: 15px;
+    padding-right: 22px;
+}
 
 .navigation li {
     list-style: none inside none;
@@ -140,6 +151,8 @@
 }
 
 
+
+
 @media (max-width: 730px) {
 
     .pycharm_logo_container {
@@ -162,6 +175,7 @@
         font-size: 10px;
     }
 }
+
 
 @media (max-width: 550px) {
     .fake_navigation li {
