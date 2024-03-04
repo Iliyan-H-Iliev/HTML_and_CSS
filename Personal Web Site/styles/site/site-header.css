@@ -1,35 +1,4 @@
-/*.site-header {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    border-bottom: 1px solid var(--clr-border-layout);*/
-/*    position: relative;*/
-/*    z-index: 10;*/
-/*}*/
-
-/*.site-header .site-title {*/
-/*    display: flex;*/
-/*    line-height: 1;*/
-/*    align-items: center;*/
-/*}*/
-
-/*.site-header .site-title p {*/
-/*    padding: 0;*/
-/*}*/
-
-/*.site-header .site-title a {*/
-/*    display: block;*/
-/*    text-decoration: none;*/
-/*    padding: 0.8em 1em;*/
-/*    padding-right: 5em;*/
-/*}*/
-
-/*.site-header .main-nav {*/
-/*    flex-grow: 1;*/
-/*}*/
-
-
-
-.decoration, .decoration_begin, .decoration_end {
+  .decoration, .decoration_begin, .decoration_end {
     display: flex;
 }
 
@@ -47,14 +16,57 @@
     max-width: 30%;
 }
 
+.decoration_end {
+    margin-right: 1em;
+}
+
 
 .pycharm_logo_container {
     margin: 3px 7px 3px 10px;
     width: 20px;
 }
 
-@media (max-width: 400px) {
+.decoration .web_icon {
+    margin: 0.2em -0.7em 0.2em 1em;
+    padding:  0.05em 0.45em;
+    background-color: #00cc00;
+    border-radius: 0.4em;
+    font-size: 1.1em;
+}
+
+.website_text, .main_text {
+    align-self: center;
+}
+
+.website_text::after,
+.main_text::after {
+    content: "\f078";
+    font-family: "Font Awesome 6 Free", serif;
+    font-weight: 900;
+    margin-left: 0.4em;
+    font-size: 0.7em;
+}
+
+.decoration_end * {
+    align-self: center;
+}
+
+.run_debug {
+    color: #338133;
+}
+
+.dots {
+    margin-right: 2em;
+}
+
+
+
+@media (max-width: 450px) {
     .decoration {
-        font-size: 10px;
+        font-size: 9px;
     }
+    .dots {
+        margin-right: 0;
+    }
+
 }
